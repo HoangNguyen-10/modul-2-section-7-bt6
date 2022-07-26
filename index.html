@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span>Nhập năm dương lịch:</span>
+    <input type="text" name="" id="year">
+    <button onclick="check()">Tính</button>
+    <p id="result"></p>
+
+    <script>
+        function check() {
+            let a = +document.getElementById('year').value;
+            let b = a % 10;
+            let c = a % 12;
+
+
+            switch (b) {
+                case 0:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Canh Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Canh Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Canh Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Canh Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Canh Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Canh Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Canh Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Canh Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Canh Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Canh Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Canh Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Canh Mùi';
+                            break;
+                    }
+                    break;
+                case 1:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Tân Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Tân Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Tân Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Tân Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Tân Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Tân Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Tân Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Tân Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Tân Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Tân Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Tân Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Tân Mùi';
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Nhâm Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Nhâm Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Nhâm Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Nhâm Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Nhâm Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Nhâm Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Nhâm Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Nhâm Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Nhâm Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Nhâm Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Nhâm Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Nhâm Mùi';
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Quý Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Quý Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Quý Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Quý Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Quý Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Quý Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Quý Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Quý Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Quý Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Quý Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Quý Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Quý Mùi';
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Giáp Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Giáp Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Giáp Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Giáp Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Giáp Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Giáp Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Giáp Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Giáp Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Giáp Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Giáp Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Giáp Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Giáp Mùi';
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Ất Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Ất Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Ất Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Ất Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Ất Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Ất Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Ất Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Ất Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Ất Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Ất Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Ất Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Ất Mùi';
+                            break;
+                    }
+                    break;
+                case 6:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Bính Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Bính Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Bính Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Bính Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Bính Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Bính Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Bính Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Bính Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Bính Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Bính Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Bính Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Bính Mùi';
+                            break;
+                    }
+                    break;
+                case 7:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Đinh Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Đinh Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Đinh Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Đinh Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Đinh Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Đinh Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Đinh Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Đinh Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Đinh Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Đinh Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Đinh Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Đinh Mùi';
+                            break;
+                    }
+                    break;
+                case 8:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Mậu Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Mậu Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Mậu Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Mậu Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Mậu Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Mậu Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Mậu Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Mậu Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Mậu Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Mậu Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Mậu Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Mậu Mùi';
+                            break;
+                    }
+                    break;
+                case 9:
+                    switch (c) {
+                        case 0:
+                            document.getElementById('result').innerHTML = 'Kỷ Thân';
+                            break;
+                        case 1:
+                            document.getElementById('result').innerHTML = 'Kỷ Dậu';
+                            break;
+                        case 2:
+                            document.getElementById('result').innerHTML = 'Kỷ Tuất';
+                            break;
+                        case 3:
+                            document.getElementById('result').innerHTML = 'Kỷ Hợi';
+                            break;
+                        case 4:
+                            document.getElementById('result').innerHTML = 'Kỷ Tý';
+                            break;
+                        case 5:
+                            document.getElementById('result').innerHTML = 'Kỷ Sửu';
+                            break;
+                        case 6:
+                            document.getElementById('result').innerHTML = 'Kỷ Dần';
+                            break;
+                        case 7:
+                            document.getElementById('result').innerHTML = 'Kỷ Mẹo';
+                            break;
+                        case 8:
+                            document.getElementById('result').innerHTML = 'Kỷ Thìn';
+                            break;
+                        case 9:
+                            document.getElementById('result').innerHTML = 'Kỷ Tỵ';
+                            break;
+                        case 10:
+                            document.getElementById('result').innerHTML = 'Kỷ Ngọ';
+                            break;
+                        case 11:
+                            document.getElementById('result').innerHTML = 'Kỷ Mùi';
+                            break;
+                    }
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
